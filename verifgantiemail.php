@@ -35,8 +35,8 @@ if(isset($_POST['id_user'])){
         $mail->isSMTP();
         $mail->Host = 'smtp.gmail.com';
         $mail->SMTPAuth = true;
-        $mail->Username = 'botmailrehan@gmail.com';
-        $mail->Password = 'nkhs xstj klcr egit';
+        $mail->Username = '';
+        $mail->Password = '';
         $mail->SMTPSecure = 'ssl';
         $mail->Port = 465;
 
