@@ -36,12 +36,12 @@ if(isset($_POST['email'])){
         $mail->isSMTP();
         $mail->Host = 'smtp.gmail.com';
         $mail->SMTPAuth = true;
-        $mail->Username = 'botmailrehan@gmail.com';
-        $mail->Password = 'nkhs xstj klcr egit';
+        $mail->Username = '';
+        $mail->Password = '';
         $mail->SMTPSecure = 'ssl';
         $mail->Port = 465;
 
-        $mail->setFrom('botmailrehan@gmail.com');
+        $mail->setFrom('');
         $mail->addAddress($email);
 
         $mail->isHTML(true);
