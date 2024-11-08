@@ -40,7 +40,7 @@ if(isset($_POST['id_user'])){
         $mail->SMTPSecure = 'ssl';
         $mail->Port = 465;
 
-        $mail->setFrom('botmailrehan@gmail.com');
+        $mail->setFrom('');
         $mail->addAddress($email);
 
         $mail->isHTML(true);
